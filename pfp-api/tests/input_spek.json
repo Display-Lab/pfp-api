@@ -1,0 +1,44 @@
+{
+    "@context": {
+      "@vocab": "http://schema.org/",
+      "slowmo": "http://example.com/slowmo#",
+      "csvw": "http://www.w3.org/ns/csvw#",
+      "dc": "http://purl.org/dc/terms/",
+      "psdo": "http://purl.obolibrary.org/obo/",
+      "slowmo:Measure": "http://example.com/slowmo#Measure",
+      "slowmo:IsAboutPerformer": "http://example.com/slowmo#IsAboutPerformer",
+      "slowmo:ColumnUse": "http://example.com/slowmo#ColumnUse",
+      "slowmo:IsAboutTemplate": "http://example.com/slowmo#IsAboutTemplate",
+      "slowmo:spek": "http://example.com/slowmo#spek",
+      "slowmo:IsAboutCausalPathway": "http://example.com/slowmo#IsAboutCausalPathway",
+      "slowmo:IsAboutOrganization": "http://example.com/slowmo#IsAboutOrganization",
+      "slowmo:IsAboutMeasure": "http://example.com/slowmo#IsAboutMeasure",
+      "slowmo:InputTable": "http://example.com/slowmo#InputTable",
+      "slowmo:WithComparator": "http://example.com/slowmo#WithComparator",
+      "has_part": "http://purl.obolibrary.org/obo/bfo#BFO_0000051",
+      "has_disposition": "http://purl.obolibrary.org/obo/RO_0000091"
+    },
+    "slowmo:IsAboutMeasure": [
+        {
+          "@id": "_:NMB01",
+          "@type": "http://purl.obolibrary.org/obo/psdo_0000102",
+          "dc:title": "Train of Four Taken",
+          "identifier": "NMB01",
+          "slowmo:WithComparator": [
+            {
+              "@type": "http://purl.obolibrary.org/obo/psdo_0000094",
+              "name": "goal",
+              "dc:title": "GOAL",
+              "slowmo:ComparisonValue": 0.90
+            },
+            {
+              "@type": "http://purl.obolibrary.org/obo/psdo_0000095",
+              "name": "peers",
+              "dc:title": "PEERS",
+              "slowmo:ComparisonValue": 0.93
+    
+            }
+          ]
+        }
+    ]
+}
