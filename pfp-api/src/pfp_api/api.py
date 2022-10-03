@@ -4,7 +4,7 @@ from http.client import HTTPException
 from typing import List
 from fastapi import FastAPI
 from uuid import UUID,uuid4
-from model import User,Gender,Role, UserUpdateRequest
+from .model import User,Gender,Role, UserUpdateRequest
 app = FastAPI()
 db: List[User] = [
     User(id = uuid4(),
@@ -58,3 +58,4 @@ async def update_user(user_update:UserUpdateRequest,user_id:UUID):
         status_code=404,
         detail=f"user withid:{user_id} does not exists"
     )
+
