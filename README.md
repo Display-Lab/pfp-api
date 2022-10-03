@@ -1,13 +1,13 @@
 # PFP-API
 This Repository is python codebase that packages API service for the PFP pipeline 
 
-## Install the mod-collector package globally
+## Install the PFP-API package globally
 
 ```sh
 pip install [/path/or/url/to/pfp_api-0.1.0-py3-none-any.whl]
 ```
 
-## Installing the Mod-Collector package in development mode
+## Installing the PFP-API package in development mode
 
 ```sh
 pip install -e [path/to/module/displaylab/pfp-api/]
