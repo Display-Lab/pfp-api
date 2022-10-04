@@ -25,6 +25,18 @@ example
 
 Once the server starts in the terminal ,use a web browser and use the url provided for example: "http://127.0.0.1:8000" to use the API service.
 
+##Installing the poetry module to run in command line
+
+```sh
+pip install -e [path/to/module/displaylab/pfp-api/python]
+```
+
+## Running the pfp-api script with command line 
+```sh
+    python -m pfp_api.pfp-api
+```
+
+
 
 
 
