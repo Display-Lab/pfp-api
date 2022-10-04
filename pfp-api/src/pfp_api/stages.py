@@ -1,6 +1,13 @@
 import warnings
 import time
 import logging
+import json
+import sys
+import warnings
+import time
+import logging
+import json
+import os
 
 import pandas as pd
 from rdflib import Graph, Literal, Namespace, URIRef
@@ -13,4 +20,6 @@ from SPARQLWrapper import XML, SPARQLWrapper
 warnings.filterwarnings("ignore")
 
 def bit_stomach(graph_read):
-    
+    return graph_read
+
+
