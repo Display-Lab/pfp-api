@@ -33,7 +33,7 @@ pip install -e [path/to/module/displaylab/pfp-api/python]
 
 ## Running the pfp-api script with command line 
 ```sh
-    python -m pfp_api.pfp-api
+    python -m pfp_api.pfp-api [path/to/the/input/file/input_spek.json] >selected_message.json
 ```
 
 
