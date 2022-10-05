@@ -23,6 +23,11 @@ warnings.filterwarnings("ignore")
 # Read graph and convert to dataframe
 start_time = time.time()
 graph_read = read(sys.argv[1])
+bs_graph = bit_stomach(graph_read)
+cs_graph = can_smasher(bs_graph)
+tp_graph = think_pudding(cs_graph)
+mc_graph = mod_collector(tp_graph)
+es_graph = esteemer(mc_graph)
 
 
-print(graph_read.serialize(format='json-ld', indent=4))
+print(es_graph.serialize(format='json-ld', indent=4))
