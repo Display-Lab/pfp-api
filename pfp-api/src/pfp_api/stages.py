@@ -21,5 +21,15 @@ warnings.filterwarnings("ignore")
 
 def bit_stomach(graph_read):
     return graph_read
+def can_smasher(graph_read):
+    return graph_read
+def think_pudding(graph_read):
+    return graph_read
+def mod_collector(graph_read):
+    return graph_read
+def esteemer(graph_read):
+    return graph_read
+
+
 
 
