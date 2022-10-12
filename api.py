@@ -5,7 +5,9 @@ from fastapi import FastAPI, File, UploadFile,Request
 from fastapi.responses import HTMLResponse
 from .load import read
 app = FastAPI()
-
+@app.get("/")
+async def root():
+    return{"Hello":"Universe"}
 @app.post("/getproviderinfo")
 async def getproviderinfo(info:Request):
     req_info =await info.json()
